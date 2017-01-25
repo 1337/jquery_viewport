@@ -1,6 +1,6 @@
 {
   "name": "jquery.viewport",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Add viewport selectors to jQuery. For example $(\"img:below-the-fold\").something().",
   "main": "jquery.viewport.js",
   "directories": {
