@@ -99,6 +99,42 @@
             return true;
         };
 
+    $.belowTheFold = function(element, settings) {
+        return belowTheFold(element, settings);
+    };
+
+    $.belowTheFoldCompletely = function(element, settings) {
+        return belowTheFoldCompletely(element, settings);
+    };
+
+    $.aboveTheTop = function(element, settings) {
+        return aboveTheTop(element, settings);
+    };
+
+    $.aboveTheTopCompletely = function(element, settings) {
+        return aboveTheTopCompletely(element, settings);
+    };
+
+    $.rightOfScreen = function(element, settings) {
+        return rightOfScreen(element, settings);
+    };
+
+    $.rightOfScreenCompletely = function(element, settings) {
+        return rightOfScreenCompletely(element, settings);
+    };
+
+    $.leftOfScreen = function(element, settings) {
+        return leftOfScreen(element, settings);
+    };
+
+    $.leftOfScreenCompletely = function(element, settings) {
+        return leftOfScreenCompletely(element, settings);
+    };
+
+    $.inViewport = function (element, settings) {
+        return inViewport(element, settings);
+    };
+
     $.extend($.expr[':'], {
         "below-the-fold": function (a, i, m) {
             // m[3] is supposedly the threshold (@theluk)
