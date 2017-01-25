@@ -1,6 +1,5 @@
 {
   "name": "jquery_viewport",
-  "version": "0.2.0",
   "main": [
     "./jquery.viewport.js"
   ],
